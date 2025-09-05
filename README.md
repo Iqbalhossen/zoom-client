@@ -34,3 +34,30 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+
+# E-Commerce Client Application
+
+This is a **Next.js** frontend application for an e-commerce platform built with **React**, **Redux Toolkit**, **TailwindCSS**, and **Axios**. It integrates with a backend API for user authentication, product management, and other features.
+
+---
+
+## 🚀 Features
+
+- User Authentication (Login / Logout)
+- OTP Verification
+- Product Listing with Pagination
+- Product Add / Edit / Delete (Admin)
+- File Uploads (Images)
+- Rich Text Editor (Jodit) for product descriptions
+- Redux Toolkit for state management
+- TailwindCSS for responsive UI
+- Notifications (react-toastify) and Alerts (SweetAlert2)
+- Animated UI with Framer Motion
+- LocalStorage for persisting user session
+- Cookie-based authentication
+
+---
+
+## 📁 Folder Structure (Client)
+
