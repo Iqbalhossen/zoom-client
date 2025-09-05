@@ -1,0 +1,36 @@
+@import "tailwindcss";
+@import "sweetalert2/dist/sweetalert2.min.css";
+.custom-loader-area {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1111;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  pointer-events: all; 
+}
+
+.custom-pagination .pagination li {
+    margin: 2px 1px;
+}
+
+
+/* sweetalert2  css  */
+
+.toast-message {
+  /* background-color: red !important; */
+  width: auto !important;
+  padding: 8px !important;
+  font-size: 18px !important;
+  font-weight: 500 !important;
+}
+
+.toast-message .swal2-icon-show {
+  font-size: 12px !important;
+}
+.toast-message .swal2-timer-progress-bar {
+  height: 0.1em !important;
+}
