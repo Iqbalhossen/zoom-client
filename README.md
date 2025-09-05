@@ -59,5 +59,14 @@ This is a **Next.js** frontend application for an e-commerce platform built with
 
 ---
 
+
+admin login 
+email:admin@gmail.com
+password:1
+
+user login
+email:user11@gmail.com
+password:1
+
 ## 📁 Folder Structure (Client)
 
