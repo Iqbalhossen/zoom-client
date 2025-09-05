@@ -19,6 +19,7 @@ import {
 import Providers from "@/redux-toolkit/provider";
 import AdminProtectedRoute from "@/components/Admin/AdminProtectedRoute/AdminProtectedRoute";
 import Logout from "@/components/Logout/Logout";
+import Image from "next/image";
 
 const menuItems = [
   { name: "Dashboard", href: "/admin/dashboard", icon: <Home size={18} /> },
@@ -70,6 +71,9 @@ export default function RootLayout({ children }) {
 
     return () => window.removeEventListener("resize", handleResize);
   }, []);
+
+
+  
 
   return (
     <html lang="en">
@@ -170,11 +174,13 @@ export default function RootLayout({ children }) {
 
                   {/* Admin info */}
                   <div className="relative">
-                    <img
+                    <Image
                       src="/profile.jpg"
                       alt="Admin"
                       className="w-10 h-10 rounded-full cursor-pointer"
                       onClick={() => setProfileOpen((prev) => !prev)}
+                      width={50}
+                      height={50}
                     />
                     <AnimatePresence>
                       {profileOpen && (
